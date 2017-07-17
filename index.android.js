@@ -18,7 +18,7 @@ export default class RailAppForEmulate extends Component {
     return (
       <WebView 
         source={{uri: 'https://www.zhdbilety.kz/'}} 
-        userAgent="rail-bestar-android/1.0" />
+        userAgent="ZhdBilety-Andriod/1.0" />
     );
   }
 }
