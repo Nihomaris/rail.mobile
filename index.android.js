@@ -24,4 +24,4 @@ export default class RailApp extends Component {
 }
 
 
-AppRegistry.registerComponent('ЖД билеты', () => RailApp);
+AppRegistry.registerComponent('Zhdbilety', () => RailApp);

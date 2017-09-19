@@ -16,11 +16,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React Native!"
 
-@interface ЖД билетыTests : XCTestCase
+@interface ZhdbiletyTests : XCTestCase
 
 @end
 
-@implementation ЖД билетыTests
+@implementation ZhdbiletyTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {
