@@ -1,4 +1,4 @@
-package com.railappforemulate;
+package kz.bestar.zhdbilety;
 
 import android.app.Application;
 

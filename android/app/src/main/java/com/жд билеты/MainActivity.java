@@ -1,4 +1,4 @@
-package com.railappforemulate;
+package kz.bestar.zhdbilety;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "RailAppForEmulate";
+        return "ЖД билеты";
     }
 }

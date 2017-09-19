@@ -94,7 +94,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "com.railappforemulate"
+        applicationId "kz.bestar.zhdbilety"
         minSdkVersion 16
         targetSdkVersion 22
         versionCode 1
@@ -104,7 +104,7 @@ android {
         }
     }
     signingConfigs {
-        release {
+       release {
             if (project.hasProperty('MYAPP_RELEASE_STORE_FILE')) {
                 storeFile file(MYAPP_RELEASE_STORE_FILE)
                 storePassword MYAPP_RELEASE_STORE_PASSWORD
@@ -113,6 +113,7 @@ android {
             }
         }
     }
+
     splits {
         abi {
             reset()

@@ -13,15 +13,15 @@ import {
   WebView
 } from 'react-native';
 
-export default class RailAppForEmulate extends Component {
+export default class RailApp extends Component {
   render() {
     return (
       <WebView 
         source={{uri: 'https://www.zhdbilety.kz/'}} 
-        userAgent="ZhdBilety-Andriod/1.0" />
+        userAgent="ZhdBilety-Andriod/1.1" />
     );
   }
 }
 
 
-AppRegistry.registerComponent('RailAppForEmulate', () => RailAppForEmulate);
+AppRegistry.registerComponent('ЖД билеты', () => RailApp);
